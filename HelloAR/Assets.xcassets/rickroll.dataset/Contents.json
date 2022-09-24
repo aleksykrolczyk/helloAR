@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {
+      "filename" : "rickroll.mp4",
+      "idiom" : "universal",
+      "universal-type-identifier" : ".mp4"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

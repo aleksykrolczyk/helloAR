@@ -12,6 +12,8 @@
 		3A10A88028C36DAA00688A09 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 3A10A87F28C36DAA00688A09 /* Experience.rcproject */; };
 		3A10A88228C36DAD00688A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A10A88128C36DAD00688A09 /* Assets.xcassets */; };
 		3A10A88528C36DAD00688A09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A10A88428C36DAD00688A09 /* Preview Assets.xcassets */; };
+		3A5CC20B28C935A100BBF4AA /* rickroll.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CC20A28C935A100BBF4AA /* rickroll.mp4 */; };
+		3A63866C28C4BC7E00EF13DF /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A63866B28C4BC7E00EF13DF /* ARViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		3A10A87F28C36DAA00688A09 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		3A10A88128C36DAD00688A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A10A88428C36DAD00688A09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A5CC20A28C935A100BBF4AA /* rickroll.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = rickroll.mp4; path = HelloAR/Assets.xcassets/rickroll.dataset/rickroll.mp4; sourceTree = "<group>"; };
+		3A63866B28C4BC7E00EF13DF /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 		3A10A86F28C36DAA00688A09 = {
 			isa = PBXGroup;
 			children = (
+				3A5CC20A28C935A100BBF4AA /* rickroll.mp4 */,
 				3A10A87A28C36DAA00688A09 /* HelloAR */,
 				3A10A87928C36DAA00688A09 /* Products */,
 			);
@@ -53,6 +58,7 @@
 		3A10A87A28C36DAA00688A09 /* HelloAR */ = {
 			isa = PBXGroup;
 			children = (
+				3A63866B28C4BC7E00EF13DF /* ARViewController.swift */,
 				3A10A87B28C36DAA00688A09 /* AppDelegate.swift */,
 				3A10A87D28C36DAA00688A09 /* ContentView.swift */,
 				3A10A87F28C36DAA00688A09 /* Experience.rcproject */,
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5CC20B28C935A100BBF4AA /* rickroll.mp4 in Resources */,
 				3A10A88528C36DAD00688A09 /* Preview Assets.xcassets in Resources */,
 				3A10A88228C36DAD00688A09 /* Assets.xcassets in Resources */,
 			);
@@ -143,6 +150,7 @@
 				3A10A87E28C36DAA00688A09 /* ContentView.swift in Sources */,
 				3A10A87C28C36DAA00688A09 /* AppDelegate.swift in Sources */,
 				3A10A88028C36DAA00688A09 /* Experience.rcproject in Sources */,
+				3A63866C28C4BC7E00EF13DF /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloAR/Preview Content\"";
-				DEVELOPMENT_TEAM = W94K4L9DHP;
+				DEVELOPMENT_TEAM = R96ZCT9AY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -281,16 +289,17 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akrolczyk.HelloAR;
+				PRODUCT_BUNDLE_IDENTIFIER = akrolczyk.HelloARMarker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloAR/Preview Content\"";
-				DEVELOPMENT_TEAM = W94K4L9DHP;
+				DEVELOPMENT_TEAM = R96ZCT9AY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -312,16 +321,17 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akrolczyk.HelloAR;
+				PRODUCT_BUNDLE_IDENTIFIER = akrolczyk.HelloARMarker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
